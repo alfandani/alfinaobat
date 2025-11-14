@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda | Web Apotik Alfina</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #c8e6c9, #80deea);
+      font-family: "Segoe UI", Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .hero-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      padding: 32px;
+      max-width: 480px;
+      margin: 0 auto;
+      text-align: center;
+      border: 1px solid rgba(0, 121, 107, 0.2);
+    }
+
+    .hero-card h2 {
+      color: #00796b;
+      font-weight: 700;
+      margin-bottom: 16px;
+      font-size: 1.8rem;
+    }
+
+    .hero-card p {
+      color: #444;
+      font-size: 1.05rem;
+      margin-bottom: 28px;
+    }
+
+    /* Navigasi dengan Kartu */
+    .nav-cards {
+      display: grid;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .nav-card {
+      background: #f1f8f8;
+      border: 2px solid #e0f7fa;
+      border-radius: 14px;
+      padding: 18px 12px;
+      text-align: center;
+      color: #00796b;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-card:hover {
+      background: #e0f7fa;
+      border-color: #009688;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0, 121, 107, 0.15);
+      color: #004d40;
+    }
+
+    .nav-card i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #00796b;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #004d40;
+      font-weight: 500;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero-card">
+    <h2>Selamat Datang di Apotek Alfina</h2>
+    <p>Pilih menu di bawah untuk melanjutkan:</p>
+
+    <div class="nav-cards">
+      <a href="biodata.html" class="nav-card">
+        <i class="bi bi-person-circle"></i>
+        <span>Biodata</span>
+      </a>
+      <a href="info_obat.html" class="nav-card">
+        <i class="bi bi-capsule"></i>
+        <span>Info Obat</span>
+      </a>
+      <a href="info_kontak.html" class="nav-card">
+        <i class="bi bi-telephone"></i>
+        <span>Kontak</span>
+      </a>
+    </div>
+
+    <footer>
+      © 2025 Apotik Alfina
+    </footer>
+  </div>
+</body>
+
+</html>
